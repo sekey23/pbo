@@ -4,7 +4,7 @@ public class Kalkulator {
 	private String operator;
 	private int nilai1;
 	private int nilai2;
-	
+
 	public Kalkulator(String op, int n1, int n2)
 	{
 		operator = op;
@@ -12,16 +12,16 @@ public class Kalkulator {
 		nilai2 = n2;
 	}
 
-	public int tambah()
+	private int tambah()
     { return nilai1 + nilai2; }
 
-    public int kali()
+    private int kali()
     { return nilai1 * nilai2; }
 
-    public int kurang()
+    private int kurang()
     { return nilai1 - nilai2; }
     
-    public int bagi()
+    private int bagi()
     { return nilai1 / nilai2; }
 
     public static void main(String[] args){
